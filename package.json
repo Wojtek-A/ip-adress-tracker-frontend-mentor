@@ -1,0 +1,27 @@
+{
+  "name": "ip_adress_tracker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wojtek-A/ip-adress-tracker-frontend-mentor" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "dotenv": "^16.3.1"
+  }
+}

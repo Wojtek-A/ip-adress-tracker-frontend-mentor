@@ -1,0 +1,23 @@
+.footer {
+  margin: auto;
+  width: 375px;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  background-color: var(--white);
+  &__text {
+    font-size: 10px;
+    letter-spacing: 1.458px;
+    text-transform: uppercase;
+    color: var(--gray-very-dark);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 1440px;
+  }
+}

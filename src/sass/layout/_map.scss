@@ -1,0 +1,23 @@
+.map {
+  margin: auto;
+  width: 375px;
+  height: 619px;
+  left: 0;
+  right: 0;
+}
+#map {
+  width: 375px;
+  height: 619px;
+  position: absolute;
+  z-index: 1;
+}
+@media screen and (min-width: 1440px) {
+  .map {
+    width: 1440px;
+    height: 639px;
+  }
+  #map {
+    width: 1440px;
+    height: 639px;
+  }
+}
